@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-slate-50;
+  }
+  button {
+    @apply p-4 font-bold text-white bg-emerald-500 rounded;
+  }
+  button.icon {
+    @apply bg-transparent;
+  }
+}
